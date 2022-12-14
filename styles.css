@@ -2,6 +2,11 @@
   border: 1px solid black;
 }
 
+/* section {
+  display: flex;
+  flex-direction: column;
+} */
+
 .top-nav {
   display: flex;
   flex-direction: column;
@@ -16,6 +21,7 @@
 
 .user-nav {
   display: flex;
+  /* flex-direction: column; */
   justify-content: flex-end;
   align-items: center;
   height: 30px;
@@ -30,3 +36,16 @@ img {
 .tabs {
   display: flex;
 }
+
+tr {
+  width: 100px;
+  height: 200px;
+}
+
+td {
+  align-content: space-between;
+}
+
+
+
+/* box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.25); */

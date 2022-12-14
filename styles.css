@@ -1,0 +1,32 @@
+* {
+  border: 1px solid black;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  padding: 4px;
+  font-family: 'Alumni Sans', sans-serif;
+  color: rgb(247, 240, 240);
+  font-size: 24px;
+  background: rgba(57, 35, 59, 0.921);
+}
+
+.user-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  padding: 4px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}
+
+.tabs {
+  display: flex;
+}

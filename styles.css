@@ -37,13 +37,18 @@ img {
   display: flex;
 }
 
+table {
+  display: flex;
+  justify-content: center;
+}
+
 tr {
   width: 100px;
   height: 200px;
 }
 
 td {
-  align-content: space-between;
+  width: 200px;
 }
 
 

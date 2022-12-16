@@ -1,27 +1,31 @@
 * {
-  border: 1px solid black;
+  font-family: 'Alumni Sans', sans-serif;
+  background-clip: ;
 }
-
-/* section {
-  display: flex;
-  flex-direction: column;
-} */
 
 .top-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100px;
+  height: 6em;
   padding: 4px;
-  font-family: 'Alumni Sans', sans-serif;
+  text-align: center;
   color: rgb(247, 240, 240);
-  font-size: 24px;
-  background: rgba(57, 35, 59, 0.921);
+  background: linear-gradient(72deg, #e584bc 0%, #076e79 51%, #2f2ce8 100%);
+}
+
+i {
+  padding: 6px 14px 11px 5px;
+}
+
+i:hover{
+  opacity: 0.75;
+  font-weight: bolder;
+  color: azure;
 }
 
 .user-nav {
   display: flex;
-  /* flex-direction: column; */
   justify-content: flex-end;
   align-items: center;
   height: 30px;
@@ -35,22 +39,72 @@ img {
 
 .tabs {
   display: flex;
+  text-transform: uppercase;
 }
+
 
 table {
   display: flex;
   justify-content: center;
+  padding: 0em;
 }
 
-tr {
-  width: 100px;
-  height: 200px;
+.cards {
+  border-spacing: 11px;
+  min-height: fit-content;
 }
 
+tr
 td {
   width: 200px;
+  height: 100px;
+  box-shadow: 4px 0px 16px 0px rgb(0 0 0 / 25%);
 }
 
+.preview-tab {
+  border: 1px solid red;
+  height: 6em;
+  background-image: url(src/sjohnson-1.jpg);
+  background-size: cover;
+  text-align: right;
+  color: white;
+}
 
+.card-info {
+  font-family: 'Alumni Sans', sans-serif;
+  margin: 8px;
+}
 
-/* box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.25); */
+a {
+  margin: 0px 0px 0px 0px;
+}
+
+.location {
+  font-size: x-small;
+}
+
+label {
+  font-size: 13px;
+}
+
+.count {
+  font-size: 30px;
+  color: salmon;
+}
+
+container {
+  display: flex;
+  border-radius: 8px;
+  background-color: lightgrey;
+  font-size: small;
+  text-align: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+container:hover {
+  background-image: url(src/sjohnson-1.jpg);
+  background-size: cover;
+  color: white;
+  opacity: 0.75;
+}

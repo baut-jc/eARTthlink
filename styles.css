@@ -62,11 +62,44 @@ td {
   box-shadow: 4px 0px 16px 0px rgb(0 0 0 / 25%);
 }
 
+.one {
+  border: 1px solid red;
+  background-image: url(src/sjohnson-1.jpg);
+}
+
+.s-johnson:hover {
+  background-image: url(src/sjohnson-1.jpg);
+}
+
+.two {
+  border: 1px solid darkolivegreen;
+  background-image: url(src/jbautista.png);
+}
+
+.j-bautista:hover {
+  background-image: url(src/jbautista.png);
+}
+
+.three {
+  border: 1px solid gold;
+  background-image: url(src/psookmark.png);
+}
+
+.p-sookmark:hover {
+  background-image: url(src/psookmark.png);
+}
+
+.four {
+  border: 1px solid turquoise;
+  background-image: url(src/sshirley.png);
+}
+
+.s-shirley:hover {
+  background-image: url(src/sshirley.png);
+}
 
 .preview-tab {
-  border: 1px solid red;
   height: 6em;
-  background-image: url(src/sjohnson-1.jpg);
   background-size: cover;
   text-align: right;
   color: white;
@@ -74,8 +107,8 @@ td {
 
 .card:hover {
   border: none;  
-  background-image: url(src/sjohnson-1.jpg);
-  background-size: 10px;
+  background-size: cover;
+  object-fit: cover;
 }
 
 .card:hover .preview-tab, 
